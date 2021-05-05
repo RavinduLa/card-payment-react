@@ -117,7 +117,7 @@ class Payment extends React.Component{
                     <Card.Header>Payment Amount: Rs.{this.state.amount}</Card.Header>
 
                     <Form id={'cardPaymentForm'} onSubmit={this.submitPaymentDetails.bind(this)}
-                          onReset={this.resetPaymentDetails.bind(this)} id={'paymentForm'}>
+                          onReset={this.resetPaymentDetails.bind(this)} >
                         <Card.Body>
 
                             <Form.Row>
